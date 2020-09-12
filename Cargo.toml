@@ -1,0 +1,10 @@
+[package]
+name = "TCP_Rust"
+version = "0.1.0"
+authors = ["ahmed2929 <mywork304@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tun-tap="0.1.2"
