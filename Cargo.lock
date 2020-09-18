@@ -4,6 +4,7 @@
 name = "TCP_Rust"
 version = "0.1.0"
 dependencies = [
+ "etherparse",
  "tun-tap",
 ]
 
@@ -102,6 +103,15 @@ dependencies = [
  "autocfg",
  "cfg-if",
  "lazy_static",
+]
+
+[[package]]
+name = "etherparse"
+version = "0.8.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "706c7cc3e05a64c496e9cca52ef8ad82a846a8c5b03345fddd81a76009a435b7"
+dependencies = [
+ "byteorder",
 ]
 
 [[package]]
