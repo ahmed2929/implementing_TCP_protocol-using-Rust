@@ -1,4 +1,5 @@
 #!/bin/bash
+#editing start
 cargo b --release
 ext=$?
 if [[ $ext -ne 0 ]]; then
